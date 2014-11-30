@@ -1,0 +1,31 @@
+Jeu de dames
+
+On s'appuie sur un jeu de dames 8x8 avec les règles anglaises: 
+ - les dames se deplacent d'une seule case comme les pions
+ - les pions ne peuvent prendre en arrière
+ - un pion peut prendre une dame
+ - quand on a la possibilité de prendre un pion adverse, on doit le prendre
+
+La partie prend fin quand:
+ - un joueur n'a plus de pion , il a PERDU
+ - on se retrouve en 1dame VS 1 dame , c'est EGALITE
+ - un joueur a des pion mais ne peut plus bouger, c'est EGALITE
+ - on a fait 25 coup sans prendre aucun pion, c'est EGALITE
+ 
+**************** 
+ 
+L'IA et les dames
+ 
+ 2008 : Chinook imbattable aux Dames
+Des scientifiques canadiens ont mis au point un programme d'ordinateur impossible à battre au 
+jeu de dames. Une formidable avancée dans le domaine de l'intelligence artificielle. 
+À l'origine, Chinook avait été élaboré pour participer au Championnat du Monde de Dames. 
+Perdant en finale en 1992, il l'a remporté deux ans plus tard en devenant ainsi le premier 
+logiciel à obtenir un titre mondial dans un jeu de compétition. Mais estimant alors que les 
+ordinateurs de nouvelle génération devraient permettre de créer un programme infaillible, 
+Jonathan Schaeffer se remettait au travail en 2001 pour arriver au résultat actuel. 
+Chinook s'avère impossible à battre. Au pire, il conduira une partie jusqu'à une impasse
+débouchant sur la nullité, et confronté à un autre ordinateur utilisant le même programme, 
+ne produira que des parties nulles.
+
+**********

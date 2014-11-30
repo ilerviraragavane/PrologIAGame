@@ -1,0 +1,9 @@
+Sp¨¦cification de la strat¨¦gie d¨¦fensif
+
+Id¨¦e principale:
+L'id¨¦e globale d'une strat¨¦gie d¨¦fensif est de minimiser la possibilit¨¦ d'¨ºtre mang¨¦ par l'adversaire.
+
+R¨¦alisation:
+Pour chaque coup potentiel, nous allons d'abord simuler le d¨¦placement et puis donner une valeur pour ¨¦valuer le caract¨¨re d¨¦fensif de ce d¨¦placement.
+Pour cette valeur, chaque possibilit¨¦ d'un pion d'¨ºtre mang¨¦ par l'adversaire vaut -1, chaque possibilit¨¦ d'une dame d'¨ºtre mang¨¦ par l'adversaire vaut -2.
+Si ce d¨¦placement est un manger, nous ajouterons 3 pour la valeur.

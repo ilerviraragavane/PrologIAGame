@@ -1,0 +1,52 @@
+Il faudra penser à intégrer un prédicat qui effectue 20,50,100... parties
+entre des ia et/ou random pour pouvoir faire des statistiques et voir quels ia est plus efficace
+
+On ajoutera sans doute dans la base de fait quelque chose comme
+	joueur(Couleur,Stratégie)
+
+
+Stratégie 1 :
+	- RANDOM
+
+Stratégie 2 :
+	- On cherche à avancer au maximum
+	
+		notion de calcul de distance/ on veut faire avancer tous les pions le plus possible
+		
+		faire un prédicat qui retourne un poids/une valeur
+		prend un mouvement (quadruplet) et 
+		plus un pion est loin d'être une dame, plus son déplacement aura du poids, de l'importance.
+	pour l'instant ce poids sera compris entre 0 et 1.
+	
+	En gros il faut quil y ai le plus de pions qui avancent pour faire des dames
+	
+	(Florent)
+	
+
+Stratégie 3 :
+	- Défensive
+	
+		faire prédicat qui à partir d'un mouvement (donc d'un quadruplet)
+		dit si le mouvement respecte une stratégie défensive
+		
+		par exemple, si le mouvement est "manger un pion" ce n'est pas en accord avec la stratégie
+		si le mouvement se fait vers les coins ça respecte la stratégie défensive.
+		si un pion de la ligne de fond est déplacer alors -> non respect de la stratégie
+		...
+		(Chongguang)
+
+Stratégie 4 :
+	- Manger le plus possible de pions
+	
+	
+Stratégie 5:
+	- stratégie évolutive
+		faire un prédicat qui analyse le jeu tout entier, c'est à dire qui dira s'il faut faire 
+		Au début on adopte une stratégie offensive (ou avancer au max) , puis avec ce prédicat ,
+		si il y a plus de pions adverses (par exemple 3 pions de plus ou 2 fois plus ) on adopte une 
+		stratégie défensive. 
+		Ce prédicat nous dira quelle stratégie adoptée donc modifiera au fil du jeu 
+		joueur(Couleur, Stratégie)
+		
+		(Elody)
+			

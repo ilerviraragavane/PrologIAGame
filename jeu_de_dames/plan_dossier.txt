@@ -1,0 +1,24 @@
+Projet prolog
+
+1) le choix du sujet(1 page)
+	bref historique du jeu de dames
+	règles normales
+	cf http://www.ffjd.fr/Web/index.php?page=reglesdujeu
+	
+
+2)  la démarche (2-3pages)
+		2.1) les règles du jeu de dames modifiées
+		2.2) l'IHM crée
+		2.3) ??
+			screenshot et exemples des interactions
+			
+
+3) les résultats obtenus (3 -4 pages)
+		3.1) l'arbre de jeux
+			http://www.apprendre-en-ligne.net/info/IA/IA.pdf
+			+ livre pdf "the art of programming" page 222
+		3.2) random et ia "intelligent"
+		3.3) contre un être humain
+
+
+4) conclusion (1 page)

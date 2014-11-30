@@ -1,0 +1,14 @@
+HOW TO:
+
+1 - inclure le fichier game.pl (qui inclu tous les autres).
+[game].
+
+2 - Pour lancer le jeu, appeler la commande start :
+start.
+
+3 - Entrer les numéros indiqués pour jouer :
+17.
+
+
+NOTE :
+par contre je ne sais pas comment on joue aux echecs...
